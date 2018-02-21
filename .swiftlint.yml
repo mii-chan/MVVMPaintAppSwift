@@ -1,0 +1,30 @@
+included:
+- MVVMPaintAppSwift
+- MVVMPaintAppSwiftTests
+
+excluded:
+- MVVMPaintAppSwift/ExternalLibs
+- Carthage
+
+disabled_rules:
+- cyclomatic_complexity
+- force_cast
+- large_tuple
+- nesting
+- trailing_whitespace
+- type_name
+- unused_closure_parameter
+
+# Custom rules
+line_length: 300
+
+type_body_length:
+- 200 # warning
+- 400 # error
+
+identifier_name:
+ min_length: 1
+
+function_body_length:
+- 100 # warning
+- 200 # error
