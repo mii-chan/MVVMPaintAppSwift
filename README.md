@@ -3,6 +3,8 @@
 ## About
 This is a sample iOS paint app to show how to split a monolithic ViewModel into Child ViewModels (called "State" in this project) in MVVM architecture.
 
+![Screenshot](https://github.com/mii-chan/MVVMPaintAppSwift/blob/media/screenshot.png)
+
 ## Requirements
 * iOS 11.0+
 * Xcode 9.0+
